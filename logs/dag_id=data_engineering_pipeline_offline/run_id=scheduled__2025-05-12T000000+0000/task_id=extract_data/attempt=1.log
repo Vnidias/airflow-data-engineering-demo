@@ -1,0 +1,11 @@
+{"timestamp":"2025-05-12T12:56:31.948254","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-12T12:56:31.948818","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data_engineering_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-12T12:56:32.027209Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T12:56:32.028746Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T12:56:32.032144Z","level":"info","event":"Current task name:extract_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T12:56:32.032792Z","level":"info","event":"Dag name:data_engineering_pipeline_offline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T12:56:32.033113Z","level":"info","event":"Using mocked user data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T12:56:32.033367Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T12:56:32.033620Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T12:56:32.033891Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_data>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T12:56:31.964888","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

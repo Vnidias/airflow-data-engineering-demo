@@ -1,0 +1,14 @@
+{"timestamp":"2025-05-12T11:04:34.560224","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-12T11:04:34.561126","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-12T11:04:34.577302","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-05-12T11:04:34.603098Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:04:34.603585Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:04:34.603925Z","level":"info","event":"Current task name:sleep","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:04:34.604164Z","level":"info","event":"Dag name:tutorial","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:04:34.581655","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'sleep 5']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-05-12T11:04:34.601027","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-05-12T11:04:39.606523","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-05-12T11:04:39.607112","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0196c42a-ed64-7325-a427-757116e5c5ab'), task_id='sleep', dag_id='tutorial', run_id='scheduled__2025-05-12T11:04:27.890294+00:00', try_number=1, map_index=-1, hostname='f0098256ab53', context_carrier={}, task=<Task(BashOperator): sleep>, bundle_instance=LocalDagBundle(name=example_dags), max_tries=3, start_date=datetime.datetime(2025, 5, 12, 11, 4, 33, 892044, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-05-12T11:04:39.639935Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:04:39.640520Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-12T11:04:39.640825Z","level":"info","event":"Task operator:<Task(BashOperator): sleep>","chan":"stdout","logger":"task"}
