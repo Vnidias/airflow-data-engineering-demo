@@ -1,6 +1,6 @@
 # Airflow Data Projects
 
-# Project 1
+## Project 1
 
 A simple, self-contained Airflow DAG demonstrating a mock extract → transform workflow using local data.
 
