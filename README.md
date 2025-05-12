@@ -1,6 +1,6 @@
 # Airflow Data Engineering Pipeline Demo
 
-A simple, self-contained Airflow DAG demonstrating a mock extract → transform workflow using local data (no internet/email required).
+A simple, self-contained Airflow DAG demonstrating a mock extract → transform workflow using local data.
 
 Perfect for interviews or learning how to build pipelines with Apache Airflow.
 
@@ -26,3 +26,5 @@ Perfect for interviews or learning how to build pipelines with Apache Airflow.
 - Task communication via XCom
 - Airflow Operators and task dependencies
 - Running locally with Docker
+
+last update 12/05/2025
